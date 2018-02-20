@@ -1,9 +1,8 @@
 # WeConnect
 WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.
 
-## WeConnect WebApplication 
-
-WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.
+#### Author:
+    Louis Musanje Michael
 
 ##### project captures the following sections listed below
 
@@ -15,7 +14,7 @@ WeConnect provides a platform that brings businesses and individuals together. T
 * **Reviwing a Business**
 * **Viewing available Businesses**
 
-## Browse project on the link below
+###### Click Link Below to browse project live online
 >### [louiCoder.github.io](louiCoder.github.io)
 
 ## Technologies used to develop this site
