@@ -15,7 +15,7 @@ WeConnect provides a platform that brings businesses and individuals together. T
 * **Viewing available Businesses**
 
 ###### Click Link Below to browse project live online
->### [louiCoder.github.io](louiCoder.github.io)
+>### [louiCoder.github.io](https://louicoder.github.io)
 
 ## Technologies used to develop this site
 1. Bootstrap Framework
