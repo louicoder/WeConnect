@@ -33,7 +33,7 @@ WeConnect provides a platform that brings businesses and individuals together. T
 ## APPLICATION WIREFRAME
 ![Application wireframe](https://github.com/louiCoder/WeConnect/blob/feature/Designs/WeConnect%20WireFrame.png)
 
-#### Set up project to get up and running
+#### Set up project to get it up and running
 * clone repository from link below  
   
       $ git clone https://github.com/louiCoder/WeConnect.git
@@ -57,6 +57,6 @@ WeConnect provides a platform that brings businesses and individuals together. T
 
       $ python app.py
       
- #### Now that the server is running open your browser and go to link below.
+ #### Now that the server is running , open your browser and run one of the links below.
 
       $ localhost:5000  or  127.0.0.1:5000
