@@ -1,9 +1,13 @@
 import unittest
-from user import User, Business, Reviews #, Business, Reviews, reviewList, userList, businessList
-
+from models import user
+from reviews import Reviews
+from user import User
 
 class testingUser(unittest.TestCase):
 
+    # def setUp(self):
+    #     sys.path.insert(0, "../mod")
+    #     from mod import user
     
     def setUp(self):
         self.user = User(1, 'louis', 'louis@email.com', 'secretPassword')
@@ -51,7 +55,7 @@ class testingBusiness(unittest.TestCase):
 
 
 class testReviews(unittest.TestCase):
-"""this test class is for testing the class Reviews"""
+    """this test class is for testing the class Reviews"""
     def setUp(self):
         review = Reviews(1, 1, 1, 'currentuser', 'your business is thrilling')    
 
