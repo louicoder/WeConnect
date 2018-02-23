@@ -34,3 +34,32 @@ WeConnect provides a platform that brings businesses and individuals together. T
 ## APPLICATION WIREFRAME
 ![Application wireframe](https://github.com/louiCoder/WeConnect/blob/feature/Designs/WeConnect%20WireFrame.png)
 
+
+#### Set up project to get it up and running
+* clone repository from link below  
+  
+      $ git clone https://github.com/louiCoder/WeConnect.git
+* Set up Virtual environment by running commands below
+
+      * virtualenv venv
+      * source /venv/Scripts/activate      
+
+* Get all project dependencies by running comman below.
+
+      $ pip freeze -r requirements.txt
+      
+#### To run the unit tests invoke/run the command below.
+
+      $ python tests/tests.py
+#### or for detailed output on unit tests run with verbose.
+
+      $ python tests/tests.py -v
+      
+#### To run the application invoke the command below.
+
+      $ python app.py
+      
+ #### Now that the server is running , open your browser and run one of the links below.
+
+      $ localhost:5000  or  127.0.0.1:5000
+
