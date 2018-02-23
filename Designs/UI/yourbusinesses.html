@@ -2,29 +2,29 @@
 <html>
 
 <head>
-    <title>BUSINESS REGISTRATION</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title>BUSINESS REVIEWS</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">WeConnect</a>
+        <a class="navbar-brand" href="#">WeConnect</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav mr-auto">
-            	<!-- home -->
+                <!-- home -->
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <!-- all businesses -->
                 <li class="nav-item">
-                    <a class="nav-link" href="business.html">All Businesses</a>
+                    <a class="nav-link" href="allbusinesses.html">All Businesses</a>
                 </li>
                 <!-- your bussinesses -->
                 <li class="nav-item">
-                    <a class="nav-link" href="">Your Businesses</a>
+                    <a class="nav-link" href="yourbusinesses.html">Your Businesses</a>
                 </li>
                 <!-- search -->
                 <li class="nav-item">
@@ -42,18 +42,44 @@
         </div>
     </nav>
     <br>
-    <br><br><br><br>
+    <br>
     <div class="container">
-        <div class="container col-md-10 bg-dark text-white p-3 text-center">
-           <p class="text-danger" style="font-size: 100px">ERROR!</p>
-           <h3>SORRY! SOMETHING WENT WRONG. PLEASE TRY AGAIN...</h3>
-           <a href="login.html">> CLICK HERE TO GO BACK HOME</a>
+        <div class="container col-md-12">
+            <div class="row">
+                <div class="col col-md-6 col-12 pr-md-4 col-sm-12">
+                    <h5 class="text-muted">ALL BUSINESSES YOUR LISTED BELOW </h5><hr>
+                    <P>
+                        All Your Businesses that are registered by you the application will appear on this page.
+                        On the right you can look through all the available business you have so far registered by you
+                    </P>
+                </div>
+
+                <div class="col col-md-6 mb-4 border-left pl-md-4 col-12 mt-4 mt-md-0">                  
+                        
+                    <!-- <h5 class="text-muted">ALL BUSINESSES LISTED BELOW </h5><hr> -->
+                    <!-- this div is created dynamically -->
+                    
+                    <div class="col-12 bg-light bg- p-3">
+                        <h6>NAME :</h6>
+                        <p>Category :</p>
+                        <p>Location :</p>
+                    </div><br>
+
+                    <div class="col-12 bg-light bg- p-3">
+                            <h6>NAME :</h6>
+                            <p>Category :</p>
+                            <p>Location : </p>
+                    </div>
+
+
+                    
+                    
+                </div>
+            </div>
         </div>
         <br>
         <br>
     </div>
-
-    <br><br><br><br><br><br>
 
     <div class="container bg-dark p-5 text-center text-white mb-1">
         <h6>WeConnect | Copyright 2018</h6>

@@ -42,7 +42,8 @@ WeConnect provides a platform that brings businesses and individuals together. T
 * Set up Virtual environment by running commands below
 
       * virtualenv venv
-      * source /venv/Scripts/activate      
+      * source /venv/Scripts/activate (for linux/mac)
+      * /venv/Scripts/activate.exe (for windows)
 
 * Get all project dependencies by running comman below.
 
@@ -50,10 +51,10 @@ WeConnect provides a platform that brings businesses and individuals together. T
       
 #### To run the unit tests invoke/run the command below.
 
-      $ python tests/tests.py
+      $ nosetests tests/tests.py
 #### or for detailed output on unit tests run with verbose.
 
-      $ python tests/tests.py -v
+      $ nosetests -v tests/tests.py
       
 #### To run the application invoke the command below.
 

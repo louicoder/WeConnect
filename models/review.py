@@ -27,7 +27,9 @@ class Reviews():
         # [ [0] = userId, [1] = busId, [2] = username, [3] = review ]
         self.reviewList.append({reviewId:[userId, busId, username, review]})
         #lets chek the length of list before and after appending the review
+        print('here')
         if len(self.reviewList) > oldListLength:
+            # print('here')
             result = True #this means the list has changed
         else:
             result = False #this means the list hasn't changed
