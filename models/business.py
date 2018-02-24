@@ -41,7 +41,6 @@ class Business():
     def checkBusinessExists(self, busId):
         """function to check whether a business Exists or not. function return a boolean true if business exists and
         false if it does not exist."""
-        result = None #this is our retun value
         if self.businessList:
             print('here')
             for bus in self.businessList:
@@ -60,7 +59,6 @@ class Business():
         and false for otherwise"""        
         oldList=[] #this will hold the old details of the business
         newList=[] #this will hold the new details of the business
-        result = None #variable to test whether business has been updated or not.
         if self.businessList:
             for xt in self.businessList:
                 for key, val in xt.items():
@@ -68,8 +66,7 @@ class Business():
                         oldList.append([x for x in val]) #oldlist going to be used for comparison
                         xt[key]=[busId, userId, busName, busLocation, busCategory, busDescription]
                         newList.append([x for x in xt[key]]) #new list going to be used for comparison
-                        if oldList[0] == newList[0] and oldList[1] == newList[1] and oldList[2] == newList[2] \
-                            and oldList[3] == newList[3] and oldList[4] == newList[4]:
+                        if oldList[0] == newList[0] and oldList[1] == newList[1] and oldList[2] == newList[2] and oldList[3] == newList[3] and oldList[4] == newList[4]:
                             return False
                         else:
                             return True
@@ -90,11 +87,7 @@ class Business():
             for x in self.businessList:
                 for val in x.values():
                     if val[0] == userId:
-                        foundrows.append(x)
-                        # if len(foundrows) > 0: 
-                        #     result = True # This means we atleast found one row matching that userId.
-                        # else:
-                        #     result = False # This means we no business matching that userId.
+                        foundrows.append(x)                        
             return foundrows
         else:
             return ''

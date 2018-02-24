@@ -20,7 +20,6 @@ class User():
     def createUser(self, userId, username, email, password):
         """this function is for creating a new user. the fuction returns a boolean true if a user has been
         successfully registered and false if otherwise."""
-        #global userList#lets manipulate this user global variable to hold        
         oldUsersListLength = len(self.userList) # lets store the length of userList before appending a new user.
         print(self.userList != None)
         if self.userList:
@@ -31,12 +30,9 @@ class User():
                         # { userId:[[0] = username, [1] = email, [2] = password] }
                         self.userList.append({userId:[username, email, password]})
                         if len(self.userList) > oldUsersListLength:
-                            self.result = True#'user added' # user was created successfully.
-                            return True
+                            return True #'user added' # user was created successfully.
                         else:
-                            self.result = False # user was not created.
-                            return self.result
-
+                            return False # user was not created.
                     else:
                         self.userList.append({userId:[username, email, password]})
                         return True
@@ -47,7 +43,6 @@ class User():
     def checkUsernameExists(self, username):
         """helper function to check whether username Exists before registering a new user. this function returns
         a boolean true if the username already exists and false if the username is not yet used."""        
-        #global userList
         #lets loop through this global userList and append all usernames to list availUsernames
         availUsernames=[]        
         result = None
@@ -56,9 +51,9 @@ class User():
                 for values in items.values():
                     availUsernames.append(values[0]) #index zero holds our usernames by default.
                     if username not in availUsernames:
-                        result = False #false will mean they dont exist
+                        return False #false will mean they dont exist
                     else:
-                        result = True # this will mean they exist 
+                        return True # this will mean they exist 
         else:
             availUsernames.append(username)
             return False                  
