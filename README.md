@@ -4,7 +4,13 @@ A web application for andela boot-camp Cohort VI using Python, Flask  and RestFu
 WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.
 
 #### Travis CI
-[![Build Status](https://travis-ci.org/louiCoder/WeConnect.svg?branch=master)](https://travis-ci.org/louiCoder/WeConnect)
+[![Build Status](https://travis-ci.org/louiCoder/WeConnect.svg?branch=master)](https://travis-ci.org/louiCoder/WeConnect) 
+
+#### CodeClimate status
+[![Test Coverage](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/test_coverage)](https://codeclimate.com/github/louiCoder/WeConnect/test_coverage)
+
+#### Maintainability status
+[![Maintainability](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/maintainability)](https://codeclimate.com/github/louiCoder/WeConnect/maintainability)
 
 #### Author:
     Louis Musanje Michael
