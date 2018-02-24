@@ -3,11 +3,7 @@ from models.user import User
 from models.business import Business
 from models.review import Reviews
 
-class testingUser(unittest.TestCase):
-
-    # def setUp(self):
-    #     sys.path.insert(0, "../mod")
-    #     from mod import user
+class testingUser(unittest.TestCase):   
     
     def setUp(self):
         self.user = User(1, 'louis', 'louis@email.com', 'secretPassword')
