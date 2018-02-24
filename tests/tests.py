@@ -6,7 +6,7 @@ from models.review import Reviews
 class testingUser(unittest.TestCase):   
     
     def setUp(self):
-        self.user = User(1, 'louis', 'louis@email.com', 'secretPassword')
+        self.user = User(1, 'louis', 'louis@email.com', 'secretPassword')        
 
     def test_userInstance(self):        
         self.assertIsInstance(self.user, User)        
