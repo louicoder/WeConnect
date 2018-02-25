@@ -1,7 +1,16 @@
 # WeConnect
-A web application for andela boot-camp Cohort VI using Python, Flask  and RestFul API
+A web application for Andela boot-camp Cohort VI using Python, Flask  and RestFul API
 
 WeConnect provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.
+
+#### Travis CI
+[![Build Status](https://travis-ci.org/louiCoder/WeConnect.svg?branch=master)](https://travis-ci.org/louiCoder/WeConnect) 
+
+#### Coverage status
+[![Test Coverage](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/test_coverage)](https://codeclimate.com/github/louiCoder/WeConnect/test_coverage)
+
+#### Maintainability status
+[![Maintainability](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/maintainability)](https://codeclimate.com/github/louiCoder/WeConnect/maintainability)
 
 #### Author:
     Louis Musanje Michael
@@ -18,10 +27,11 @@ WeConnect provides a platform that brings businesses and individuals together. T
 * **Viewing only your Businesses**
 
 ###### Click Link Below to browse project live online
->### [https://louicoder.github.io](https://louicoder.github.io)
+
+>### [louiCoder.github.io](https://louicoder.github.io)
 
 ## Technologies used to develop this site
-1. Bootstrap Framework (Html5 + Css3 + Javascript)
+1. Bootstrap Framework (Html5 + CSS3 + Javascript)
 2. Jquery
 3. Python
 4. Postman
@@ -41,18 +51,19 @@ WeConnect provides a platform that brings businesses and individuals together. T
 * Set up Virtual environment by running commands below
 
       * virtualenv venv
-      * source /venv/Scripts/activate      
+      * source /venv/Scripts/activate (for linux/mac)
+      * /venv/Scripts/activate.exe (for windows)
 
-* Get all project dependencies by running comman below.
+* Get all project dependencies by running the command below.
 
       $ pip freeze -r requirements.txt
       
 #### To run the unit tests invoke/run the command below.
 
-      $ python tests/tests.py
+      $ nosetests tests/tests.py
 #### or for detailed output on unit tests run with verbose.
 
-      $ python tests/tests.py -v
+      $ nosetests -v tests/tests.py
       
 #### To run the application invoke the command below.
 

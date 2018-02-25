@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <title>BUSINESS REGISTRATION</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>BUSINESS REVIEWS</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 
 <body>
@@ -14,17 +14,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav mr-auto">
-            	<!-- home -->
+                <!-- home -->
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <!-- all businesses -->
                 <li class="nav-item">
-                    <a class="nav-link" href="business.html">All Businesses</a>
+                    <a class="nav-link" href="allbusinesses.html">All Businesses</a>
                 </li>
                 <!-- your bussinesses -->
                 <li class="nav-item">
-                    <a class="nav-link" href="">Your Businesses</a>
+                    <a class="nav-link" href="yourbusinesses.html">Your Businesses</a>
                 </li>
                 <!-- search -->
                 <li class="nav-item">
@@ -42,34 +42,43 @@
         </div>
     </nav>
     <br>
-    <br><br>
+    <br>
     <div class="container">
-        <div class="container col-md-10 bg-dark text-white p-3 text-center">
-           <h2>SELECT A BUSINESS TO DELETE BELOW</h2>
-        </div>
-        <br>
-        <br>
-    </div>
-
-    <div class="container">
-        <div class="container col-md-5 p-3 text-center">
-           <form action="#" method="PUT" class="pl-md-4">                        
-               <!-- <h5 class="text-muted">SELECT BUSINESS TO SEE REVIEWS</h5><hr> -->
-                <div class="form-group">
-                    <!-- <label for="">Select Location</label> -->
-                    <select class="form-control" id="">
-                     <!-- <option>1</option>-->
-                    </select>
-                  </div>
-                
-                <div class="align-items-md-end">
-                    <button type="submit" class="btn btn-success btn-lg">DELETE BUSINESS</button>
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col col-md-6 col-12 pr-md-4 col-sm-12">
+                        <h5 class="text-muted">ALL BUSINESSES YOUR LISTED BELOW </h5><hr>
+                        <P> All Your Businesses that are registered by you the application will appear on this page. 
+                            On the right you can look through all the available business you have so far registered by you
+                        </P>
+                    </div>
+    
+                    <div class="col col-md-6 mb-4 border-left pl-md-4 col-12 mt-4 mt-md-0">                  
+                            
+                        <!-- <h5 class="text-muted">ALL BUSINESSES LISTED BELOW </h5><hr> -->
+                        <!-- this div is created dynamically -->
+                        
+                        <div class="col-12 bg-light bg- p-3">
+                            <h6>NAME :</h6>
+                            <p>Category :</p>
+                            <p>Location :</p>
+                        </div><br>
+    
+                        <div class="col-12 bg-light bg- p-3">
+                                <h6>NAME :</h6>
+                                <p>Category :</p>
+                                <p>Location :</p>
+                        </div>
+    
+    
+                        
+                        
+                    </div>
                 </div>
-            </form>
+            </div>
+            <br>
+            <br>
         </div>
-        <br>
-        <br>
-    </div><br><br><br><br><br><br><br><br>
 
     <div class="container bg-dark p-5 text-center text-white mb-1">
         <h6>WeConnect | Copyright 2018</h6>
