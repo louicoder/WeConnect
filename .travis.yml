@@ -9,15 +9,5 @@ install:
 # command to run tests
 script: "nosetests tests/tests.py"
 
-env:
-  - $COVPYYAML=cov3-default,coveralls3
-  - $COVPYYAML=cov4-pyyaml,coveralls4
-  - $COVPYYAML=cov41-pyyaml,coveralls41
-matrix:
-  include:
-    - python: 3.6
-      env: $COVPYYAML=cov41-pyyaml,coveralls41
-install:
-  - pip install tox
-script:
-  - tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d . | sed -e 's/pypypy/pypy/')-$COVPYYAML
+after_success:
+- coveralls
