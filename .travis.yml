@@ -10,4 +10,4 @@ install:
 script: "nosetests tests/tests.py"
 
 after_success:
-- coveralls
+  - coveralls
