@@ -6,8 +6,8 @@ WeConnect provides a platform that brings businesses and individuals together. T
 #### Travis CI
 [![Build Status](https://travis-ci.org/louiCoder/WeConnect.svg?branch=master)](https://travis-ci.org/louiCoder/WeConnect) 
 
-#### CodeClimate status
-[![Test Coverage](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/test_coverage)](https://codeclimate.com/github/louiCoder/WeConnect/test_coverage)
+#### Coverage status
+[![Coverage Status](https://coveralls.io/repos/github/louiCoder/WeConnect/badge.svg)](https://coveralls.io/github/louiCoder/WeConnect)
 
 #### Maintainability status
 [![Maintainability](https://api.codeclimate.com/v1/badges/02c304b5a4c5170aec61/maintainability)](https://codeclimate.com/github/louiCoder/WeConnect/maintainability)
